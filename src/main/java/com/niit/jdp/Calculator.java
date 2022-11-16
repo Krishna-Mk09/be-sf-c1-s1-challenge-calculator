@@ -13,23 +13,23 @@ public class Calculator {
 
     }
 
-    public double addition() {
-        return 0;
+    public double addition(int number1, int number2) {
+        return number1 + number2;
     }
 
-    public double subtraction() {
-        return 0;
+    public double subtraction(int number1, int number2) {
+        return number1 - number2;
     }
 
-    public double multiplication() {
-        return 0;
+    public double multiplication(int number1, int number2) {
+        return number1 * number2;
     }
 
-    public double division() {
-        return 0;
+    public double division(int number1, int number2) {
+        return number1 / number2;
     }
 
-    public double modulo() {
-        return 0;
+    public double modulo(int number1, int number2) {
+        return number1 % number2;
     }
 }
